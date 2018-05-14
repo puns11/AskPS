@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./assets/images/profile.jpg"/>
+  <title>Puneet S Portfolio</title>
+  <meta name="description" content="">
+  <meta name="author" content="Puneet Sharma">
+  <meta name="keywords" content="angular, portfolio, puneet, developer, .net, c#">
+  <link rel="stylesheet" href="./assets/css/styles.min.css" id="css-main">
+  <script src="./assets/js/fontawesome.js"></script>
+
+  <!-- Remove style switcher css -->
+  <style>
+    .palette-wrapper {
+      background-color: #fff;
+      border: 2px solid #39b54a;
+      border-left: 0px;
+      left: 0px;
+      padding: 15px;
+      position: fixed;
+      top: 200px;
+      -webkit-transition: margin 0.2s linear;
+      -moz-transition: margin 0.2s linear;
+      -o-transition: margin 0.2s linear;
+      transition: margin 0.2s linear;
+      width: 180px;
+      z-index: 999999
+    }
+
+    .palette-wrapper select {
+      display: block;
+      margin-bottom: 15px;
+      width: 100%
+    }
+
+    .palette-closed {
+      margin-left: -180px
+    }
+
+    h2.palette-title,
+    .block-content h3.palette-title {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 12px;
+      font-weight: bold;
+      margin: 0px 0px 10px 0px;
+      padding-bottom: 5px;
+      text-transform: uppercase
+    }
+
+    .palette-colors {
+      margin: 0px;
+      padding: 0px
+    }
+
+    .palette-colors li {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      display: block;
+      float: left;
+      list-style: none;
+      margin-bottom: 11px;
+      margin-right: 11px
+    }
+
+    .palette-colors li:nth-child(4n) {
+      margin-right: 0px
+    }
+
+    .palette-colors a {
+      background-color: red;
+      display: block;
+      height: 24px;
+      margin: 1px;
+      width: 24px
+    }
+
+    .palette-toggle {
+      background-color: black;
+      border: 2px solid black;
+      border-left: 0px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1;
+      position: absolute;
+      right: -42px;
+      text-align: center;
+      text-transform: uppercase;
+      top: -2px;
+      width: 40px
+    }
+
+    .palette-toggle .palette-toggle-inner {
+      border: 1px solid #fff;
+      height: 100px;
+      padding: 66px 0px 0px 0px
+    }
+
+    .palette-toggle span {
+      display: block;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      white-space: nowrap
+    }
+
+    .palette-toggle i {
+      display: inline;
+      margin-right: 8px
+    }
+
+    .palette-color-green a {
+      background-color: #07cb79;
+    }
+
+    .palette-color-red a {
+      background-color: #e83b35;
+    }
+
+    .palette-color-cyan a {
+      background-color: #07aaf5;
+    }
+
+    .palette-color-purple a {
+      background-color: #8e45ae;
+    }
+    .palette-color-gradient a {
+      background-image: linear-gradient(to right, rgb(255, 195, 113) 0%, rgb(255, 95, 109) 100%);
+    }
+  </style>
+  <!-- Remove Style switcher css end -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <app-root></app-root>
+</body>
+</html>
